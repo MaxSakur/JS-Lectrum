@@ -1,6 +1,19 @@
-Отсортировать массив по убыванию.
+var arr = [1,2,3,4,5,6], newArr = [];
+var arrLength = arr.length;
 
-    ```javascript
-var arr = [1,2,3,4,5,6];
-// [6,5,4,3,2,1]
-```
+for (let i=0; i< arrLength; i++){
+
+    let first = arr[i];
+    let last = newArr[newArr.length -1];
+
+    last = first;
+
+    console.log('first', first);
+    console.log('last', last);
+
+    newArr[last --];
+
+}
+
+
+console.log(newArr)
