@@ -1,19 +1,9 @@
 var arr = [1,2,3,4,5,6], newArr = [];
-var arrLength = arr.length;
+var i;
 
-for (let i=0; i< arrLength; i++){
-
-    let first = arr[i];
-    let last = newArr[newArr.length -1];
-
-    last = first;
-
-    console.log('first', first);
-    console.log('last', last);
-
-    newArr[last --];
-
+for (i of arr) {
+    newArr[arr.length - i] = i;
 }
 
-
 console.log(newArr)
+

@@ -1,6 +1,10 @@
-Отсортировать массив по возрастанию.
-
-    ```javascript
 var arr = [6,5,4,3,2,1];
-// [1,2,3,4,5,6]
-```
+var i;
+
+for (i in arr) {
+
+    arr[arr.length] = Number(i * 1) + 1;
+}
+
+console.log('revert array =>', arr)
+
