@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="874c3c82-e145-43f4-8ef5-cec24b771466" name="liga" url="http://1345104.liga00.web.hosting-test.net/">
-        <fileTransfer host="liga00.ftp.tools" port="21" rootFolder="/www/">
+        <fileTransfer host="liga00.ftp.tools" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

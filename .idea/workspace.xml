@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34459fe6-c47b-430a-b6ff-86fa4fea7646" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/.idea/JS-Lesson-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-Lesson-1/task-9.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="6.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-3/6.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-3/7.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS-3/8.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JS-Lesson-4/task-1.md" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-1.js" />
+        <option value="$PROJECT_DIR$/react-workshop/src/Kinoafisha/index.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-2.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-3.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-4.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-5.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-6.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/taak-7.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-7.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-3/task-8.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-4/task-1.js" />
+        <option value="$PROJECT_DIR$/JS-Lesson-4/task-8.js" />
+        <option value="$PROJECT_DIR$/JS-3/1.js" />
+        <option value="$PROJECT_DIR$/JS-3/6.js" />
+        <option value="$PROJECT_DIR$/JS-3/7.js" />
+        <option value="$PROJECT_DIR$/JS-3/8.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/react-workshop/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/react-workshop/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="2095" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JS-Lectrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Lectrum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS-Lectrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Lectrum" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JS-Lectrum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS-Lectrum" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-4" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34459fe6-c47b-430a-b6ff-86fa4fea7646" name="Default" comment="" />
+      <created>1556134804854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556134804854</updated>
+      <workItem from="1556134806325" duration="3488000" />
+      <workItem from="1556209673399" duration="7637000" />
+      <workItem from="1557332988605" duration="3766000" />
+      <workItem from="1557561933439" duration="18544000" />
+      <workItem from="1557640181229" duration="20091000" />
+      <workItem from="1557686499595" duration="1050000" />
+      <workItem from="1557767875845" duration="971000" />
+      <workItem from="1557770226620" duration="45000" />
+      <workItem from="1563021034437" duration="5622000" />
+      <workItem from="1563088434851" duration="754000" />
+      <workItem from="1563107679112" duration="19133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81101000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09701493" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32570806" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-8.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-1.md" />
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/API/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/API/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/API/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/Kinoafisha/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-2.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-3.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-1.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-1.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-2/task-1.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-2/task-1.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-2/task-4.js" />
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/API/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/API/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/API/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-2.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-3.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-2.js" />
+    <entry file="file://$PROJECT_DIR$/react-workshop/src/Kinoafisha/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-4.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-3.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-4.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-5.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-6.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-5.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-7.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-6.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-7.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-8.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-8.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-2.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-10.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-10.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-8.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-8.js" />
+    <entry file="file://$PROJECT_DIR$/JS-4/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-1.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-3/task-1.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-3.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-2.js" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-1.md" />
+    <entry file="file://$PROJECT_DIR$/JS-Lesson-4/task-1.js" />
+    <entry file="file://$PROJECT_DIR$/JS-3/1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-3/2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-3/5.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-3/6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-3/7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-3/8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
