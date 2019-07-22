@@ -14,18 +14,20 @@
 const array = [1, 2, 3];
 
 // Решение
+const result = function forEach(newArray, callback) {
+    if (Array.isArray(newArray)) {
+        for (let i = 0; i < array.length; i++) {
+          if (typeof callback === "function") {
+            callback(array[i], i, array);
+          }
+        }
+        return newArray;
+      }
+    
+      return console.error("argument is not array");
+};
 
-const result = forEach(array, function(item, index, arrayRef) {
-    if (Array.isArray(array)){
-        console.log(array)
-    }
-  
 
-    console.log(item); // элемент массива
-    console.log(index); // индекс элемента
-    console.log(arrayRef); // ссылка на обрабатываемый массив
-});
-
-console.log(result); // undefined
+result(array, (item, index, arrayRef) => console.log(item, index, arrayRef)); // undefined
 
 exports.forEach = forEach;
