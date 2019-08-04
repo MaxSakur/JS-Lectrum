@@ -17,19 +17,23 @@ const INITIAL_ACCUMULATOR = 6;
 
 // Решение
 
-const result = reduce(
-    array,
-    function(accumulator, item, i, arrayRef) {
-        console.log(accumulator); // значение-аккумулятор
-        console.log(item); // элемент массива
-        console.log(i); // индекс элемента
-        console.log(arrayRef); // ссылка на обрабатываемый массив
+function change (elem, reducer){
+    let total = 0+reducer;
+    for (let n in elem) {
+        total += elem[n];
+    }
+    console.log(total)
+    return  total;
+}
 
-        return accumulator + item;
-    },
-    INITIAL_ACCUMULATOR,
-);
+function reduce(trueArr, trueFunc, accum) {
+    let finalResult = 0;
+    if (Array.isArray(trueArr) && typeof trueFunc === 'function' && arguments.length == 3) {
+        return finalResult = trueFunc(trueArr)
+    }
+}
 
-console.log(result); // 21
+
+reduce(array, change(array, INITIAL_ACCUMULATOR), INITIAL_ACCUMULATOR)
 
 exports.reduce = reduce;

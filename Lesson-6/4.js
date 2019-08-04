@@ -15,14 +15,25 @@ const array = [1, 2, 'Добро пожаловать.', 4, 5, 6];
 
 // Решение
 
-const result = some(array, function(item, i, arrayRef) {
-    console.log(item); // элемент массива
-    console.log(i); // индекс элемента
-    console.log(arrayRef); // ссылка на обрабатываемый массив
+function checkNumber(elem) {
+    return typeof (elem) === 'number' ? true : false
+}
 
-    return typeof item === 'string';
-});
+function some(trueArr, trueFunc) {
+    if (Array.isArray(trueArr) && typeof trueFunc === 'function' && arguments.length == 2) {
+        for (let i = 0; i < trueArr.length; i++) {
+            if (trueFunc(trueArr[i])) {
+                return true
+            } else {
+                return false
+            }
+        }
+    } else {
+        throw new Error ('Условия не были выполнены')
+    }
+}
 
-console.log(result); // true
+
+some(array, checkNumber)
 
 exports.some = some;

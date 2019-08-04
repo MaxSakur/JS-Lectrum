@@ -15,14 +15,19 @@ const array = ['Доброе утро!', 'Добрый вечер!', 3, 512, '#'
 
 // Решение
 
-const filteredArray = filter(array, function(item, i, arrayRef) {
-    console.log(item); // элемент массива
-    console.log(i); // индекс элемента
-    console.log(arrayRef); // ссылка на обрабатываемый массив
+function checkString(elem) {
+   typeof(elem) === 'string' ? console.log('elem-->',elem) : false
+}
 
-    return item === 'Добрый вечер!';
-});
+function filter (trueArr, trueFunc) {
+    if(Array.isArray(trueArr) && typeof trueFunc === 'function') {
+        for( let i = 0; i <= trueArr.length; i++) {
+            trueFunc(trueArr[i])
+        }
+    }
+}
 
-console.log(filteredArray); // ['Добрый вечер!']
+
+filter(array,  checkString)
 
 exports.filter = filter;

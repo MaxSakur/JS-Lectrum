@@ -12,8 +12,13 @@
  */
 
 // Решение
+function createArray (fill,count){
+    let newArr = new Array(count);
+    return newArr.fill(fill, 0 , newArr.length);
+}
 
 const result = createArray('x', 5);
+
 
 console.log(result); // [ x, x, x, x, x ]
 

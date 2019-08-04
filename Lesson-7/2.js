@@ -21,19 +21,72 @@
 
 // Решение
 
-const array1 = [[[1, 2], [1, 2]], [[2, 1], [1, 2]]];
+
+
+const array1 = [
+    [
+        [1, 2],
+        [1, 2]
+    ],
+    [
+        [2, 1],
+        [1, 2]
+    ]
+];
 console.log(collect(array1)); // 12
 
-const array2 = [[[[[1, 2]]]]];
+
+const array2 = [
+    [
+        [
+            [
+                [1, 2]
+            ]
+        ]
+    ]
+];
 console.log(collect(array2)); // 3
 
-const array3 = [[[[[1, 2]]], 2], 1];
+const array3 = [
+    [
+        [
+            [
+                [1, 2]
+            ]
+        ], 2
+    ], 1
+];
 console.log(collect(array3)); // 6
 
-const array4 = [[[[[]]]]];
+const array4 = [
+    [
+        [
+            [
+                []
+            ]
+        ]
+    ]
+];
 console.log(collect(array4)); // 0
 
-const array5 = [[[[[], 3]]]];
+const array5 = [
+    [
+        [
+            [
+                [], 3
+            ]
+        ]
+    ]
+];
 console.log(collect(array5)); // 3
+
+function collect(arr) {
+    if (Array.isArray(arr) && arr.length > 0) {
+        let complateArr = arr.reduce((acc, val) => Array.isArray(val) ? acc.concat(collect(val)) : acc.concat(val), []);
+        return complateArr.reduce((sum, cur) => sum + cur)
+    } else {
+        return 0
+    }
+}
 
 exports.collect = collect;

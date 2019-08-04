@@ -33,7 +33,12 @@ const array = [
 
 // Решение
 
-const result = inspect(array);
-console.log(result); // [ 7, 11, 7, 12 ]
+function inspect(arr){
+    let newArray = [];
+    arr.map((item)=>typeof(item) == 'string' && newArray.push(item.length))
+    console.log(newArray)
+}
+
+inspect(array)
 
 exports.inspect = inspect;

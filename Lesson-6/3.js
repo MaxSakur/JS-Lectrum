@@ -15,14 +15,22 @@ const array = [1, 2, 3, 4, 5, 6];
 
 // Решение
 
-const result = every(array, function(item, i, arrayRef) {
-    console.log(item); // элемент массива
-    console.log(i); // индекс элемента
-    console.log(arrayRef); // ссылка на обрабатываемый массив
+function checkNumber(elem) {
+    return typeof (elem) === 'number' ? true : false
+}
 
-    return typeof item === 'number';
-});
+function every(trueArr, trueFunc) {
+    if (Array.isArray(trueArr) && typeof trueFunc === 'function') {
+        for (let i = 0; i < trueArr.length; i++) {
+            if (!trueFunc(trueArr[i])) {
+                throw new Error('SHIT')
+            } else {
+                return true
+            }
+        }
+    }
+}
 
-console.log(result); // true
 
+every(array, checkNumber)
 exports.every = every;

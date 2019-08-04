@@ -14,7 +14,7 @@
 const array = [1, 2, 3];
 
 // Решение
-const result = function forEach(newArray, callback) {
+const forEach = function forEach(newArray, callback) {
     if (Array.isArray(newArray)) {
         for (let i = 0; i < array.length; i++) {
           if (typeof callback === "function") {
@@ -28,6 +28,6 @@ const result = function forEach(newArray, callback) {
 };
 
 
-result(array, (item, index, arrayRef) => console.log(item, index, arrayRef)); // undefined
+forEach(array, (item, index, arrayRef) => console.log(item, index, arrayRef)); // undefined
 
 exports.forEach = forEach;
