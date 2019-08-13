@@ -23,8 +23,19 @@
 // Решение
 
 function getName(greeting, message) {
-    return `${greeting} ${message} ${this.name}.`;
+  return `${greeting} ${message} ${this.name}.`;
 }
+
+function bind(func, name, ...params) {
+  if (typeof func !== 'function' && typeof name !== 'object' && Array.isArray(params)) {
+    return false
+  }
+
+  name.func = func.apply(name, params)
+  return func.apply(name, params)
+}
+
+
 
 const user = { name: 'Walter', getName };
 const oliver = { name: 'Oliver' };
@@ -32,6 +43,6 @@ const oliver = { name: 'Oliver' };
 const boundedGetName = bind(getName, oliver, 'Hello!', 'I am');
 
 console.log(user.getName('Hello!', 'My name is')); // Hello! My name is Walter.
-console.log(boundedGetName()); // Hello! I am Oliver.
+console.log(boundedGetName); // Hello! I am Oliver.
 
 exports.bind = bind;
