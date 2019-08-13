@@ -19,15 +19,19 @@
 
 // Решение
 
+function calculate(...functions){
+  let total = functions.reduce((sum, cur) => cur(sum), 0)
+  return total;
+}
 const result = calculate(
     () => {
-        return 7;
+      return 7;
     },
     prevResult => {
-        return prevResult + 4;
+      return prevResult + 4;
     },
     prevResult => {
-        return prevResult * 5;
+      return prevResult * 5;
     },
 );
 
