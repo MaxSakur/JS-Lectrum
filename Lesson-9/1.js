@@ -14,18 +14,35 @@
  * - Свойства с одинаковыми именами нужно перезаписывать — приоритетом обладает объект из второго параметра.
  */
 
-// Решение
+
+function shallowMerge(firstObj, secondObject ) {
+  if ( !firstObj || !secondObject ){
+    console.log('Not enough params ')
+  }
+
+  if ( firstObj === secondObject) {
+    console.log('They got same link to one Object')
+  }
+
+  const firstDescriptors = Object.getOwnPropertyDescriptors(firstObj);
+  const secondDescriptors = Object.getOwnPropertyDescriptors(secondObject);
+  const newObject = Object.assign(firstDescriptors, secondDescriptors);
+
+  return Object.create(Object.prototype, newObject);
+}
 
 const user = { firstName: 'Marcus', lastName: 'Kronenberg' };
 const userData = { job: 'developer', country: 'Germany', lastName: 'Schmidt' };
 
 Object.defineProperty(user, 'firstName', { writable: false });
 Object.defineProperty(userData, 'job', { configurable: false });
-
+  
 const result = shallowMerge(user, userData);
 
 console.log(result); // { firstName: 'Marcus', lastName: 'Schmidt', job: 'developer', country: 'Germany' }
 console.log(Object.getOwnPropertyDescriptor(result, 'firstName').writable); // false
 console.log(Object.getOwnPropertyDescriptor(result, 'job').configurable); // false
 
+
 exports.shallowMerge = shallowMerge;
+
