@@ -24,43 +24,58 @@
 
 // Решение
 
+const calculateAdvanced =(...functions) => {
+
+  let errors = [];
+
+  const value = functions.reduce((acc, func, index) => {
+
+    try {
+      const result = func(acc);
+      if(!result){
+        throw new Error(`callback at index ${index} did not return any value.`)
+      }
+      return result;
+    } catch(error){
+      errors = [...errors, {index, name: error.name, message: error.message}]
+      return acc;
+    }
+  }, 0)
+
+  return {
+    value,
+    errors
+  }
+}
+
+
 const result = calculateAdvanced(
     () => {},
     () => {
-        return 7;
+      return 7;
     },
     () => {},
     prevResult => {
-        return prevResult + 4;
+      return prevResult + 4;
     },
     () => {
-        throw new RangeError('Range is too big.');
+      throw new RangeError('Range is too big.');
     },
     prevResult => {
-        return prevResult + 1;
+      return prevResult + 1;
     },
     () => {
-        throw new ReferenceError('ID is not defined.');
+      throw new ReferenceError('ID is not defined.');
     },
     prevResult => {
-        return prevResult * 5;
+      return prevResult * 5;
     },
 );
 
+
+
+
 console.log(result);
 
-// Функция вернёт:
-// { value: 60,
-//     errors:
-//      [ { index: 0,
-//          name: 'Error',
-//          message: 'callback at index 0 did not return any value.' },
-//        { index: 2,
-//          name: 'Error',
-//          message: 'callback at index 2 did not return any value.' },
-//        { index: 4, name: 'RangeError', message: 'Range is too big.' },
-//        { index: 6,
-//          name: 'ReferenceError',
-//          message: 'ID is not defined.' } ] }
 
 exports.calculateAdvanced = calculateAdvanced;
